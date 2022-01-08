@@ -37,9 +37,9 @@ while (not enforcou and not acertou):
     else:
         erros += 1
 
-        print('Você ainda possue {} rodadas'.format (6 - erros))
+        print('Você ainda possue {} rodadas'.format (7 - erros))
 
-    enforcou = erros == 6
+    enforcou = erros == 7
     acertou = '_' not in letras_acertada
     print("  _______     ")
     print(" |/      |    ")
